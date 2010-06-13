@@ -202,6 +202,16 @@ include $(BUILD_KEY_CHAR_MAP)
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/bcm4329.ko:system/lib/modules/bcm4329.ko \
+    $(LOCAL_PATH)/modules/tun.ko:system/lib/modules/tun.ko \
+    $(LOCAL_PATH)/modules/nfs.ko:system/lib/modules/nfs.ko \
+    $(LOCAL_PATH)/modules/lzo_compress.ko:system/lib/modules/lzo_compress.ko \
+    $(LOCAL_PATH)/modules/lzo_decompress.ko:system/lib/modules/lzo_decompress.ko \
+    $(LOCAL_PATH)/modules/nfs.ko:system/lib/modules/nfs.ko \
+    $(LOCAL_PATH)/modules/cifs.ko:system/lib/modules/cifs.ko \
+    $(LOCAL_PATH)/modules/lockd.ko:system/lib/modules/lockd.ko \
+    $(LOCAL_PATH)/modules/nfs_acl.ko:system/lib/modules/nfs_acl.ko \
+    $(LOCAL_PATH)/modules/sunrpc.ko:system/lib/modules/sunrpc.ko \
+    $(LOCAL_PATH)/modules/lzo.ko:system/lib/modules/lzo.ko \
     $(LOCAL_PATH)/proprietary/libGLESv2_adreno200.so:system/lib/egl/libGLESv2_adreno200.so \
     $(LOCAL_PATH)/proprietary/libEGL_adreno200.so:system/lib/egl/libEGL_adreno200.so \
     $(LOCAL_PATH)/proprietary/libGLESv1_CM_adreno200.so:system/lib/egl/libGLESv1_CM_adreno200.so \
