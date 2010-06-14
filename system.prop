@@ -21,11 +21,21 @@ ro.opengles.version = 131072
 dalvik.vm.heapsize=32m
 
 # RIL settings
-ro.ril.gprsclass=10
-ro.ril.hsxpa=1
-ro.ril.oem.ecclist=911,112,999,000,08,118,111,120,122,110,119,995,0800
-ro.ril.oem.nosim.ecclist=911,112,999,000,08,118,111,120,122,110,119,995,0800
-ro.ril.enable.managed.roaming=1
-ro.ril.emc.mode=2
+ro.ril.enable.dtm = 1
+ro.ril.gprsclass = 12
+ro.ril.hsdpa.category = 8
+ro.ril.hsupa.category = 5
+ro.ril.hsxpa = 2
+ro.ril.ecc.VIRGIN-UK=112,999,911
+ro.ril.ecc.HTC-ELL=92,93,94
+ro.ril.ecc.HTC-Russia=01,02,03,04
+ro.ril.ecc.HTC-FRA=123,911
+ro.ril.ecc.HTC-WWE=999,999
+ro.ril.disable.fd.plmn.prefix=23402,23410,23411
+ro.ril.enable.sdr=0
+ro.ril.enable.a52.HTC-ITA=1
+ro.ril.enable.a53.HTC-ITA=1
+ro.ril.enable.a52.VODA-Portugal=0
+ro.ril.enable.a53.VODA-Portugal=1
 
 media.a1026.nsForVoiceRec=0
