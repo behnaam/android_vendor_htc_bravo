@@ -43,7 +43,8 @@ ro.ril.enable.a53.VODA-Portugal=1
 # For HSDPA low throughput
 ro.ril.disable.power.collapse = 1
 
-#Set default_france.acdb to audio_ctl driver if the ro.cid is HTC__203
+# Set default_france.acdb to audio_ctl driver if the ro.cid is HTC__203
 ro.ril.enable.prl.recognition = 1
 
+# Fix Mic
 media.a1026.nsForVoiceRec=0
