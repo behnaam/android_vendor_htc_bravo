@@ -219,7 +219,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libspeech.so:system/lib/libspeech.so \
     $(LOCAL_PATH)/proprietary/lights.qsd8k.so:system/lib/hw/lights.qsd8k.so \
     $(LOCAL_PATH)/proprietary/akmd:system/bin/akmd \
-    $(LOCAL_PATH)/proprietary/rild:system/bin/rild \
     frameworks/base/data/etc/android.hardware.camera.flash-autofocus.xml:system/etc/permissions/android.hardware.camera.flash-autofocus.xml \
     frameworks/base/data/etc/android.hardware.sensor.light.xml:system/etc/permissions/android.hardware.sensor.light.xml \
     frameworks/base/data/etc/android.hardware.sensor.proximity.xml:system/etc/permissions/android.hardware.sensor.proximity.xml \
