@@ -48,3 +48,6 @@ ro.ril.enable.prl.recognition = 1
 
 # Fix Mic
 media.a1026.nsForVoiceRec=0
+
+# Dalvik only in data
+dalvik.vm.dexopt-data-only=1
