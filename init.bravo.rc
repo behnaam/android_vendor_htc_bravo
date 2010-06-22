@@ -13,12 +13,10 @@ on boot
     chown bluetooth bluetooth /sys/class/rfkill/rfkill0/type
     chown bluetooth bluetooth /sys/class/rfkill/rfkill0/state
     chmod 0660                /sys/class/rfkill/rfkill0/state
-    
-    chown radio radio /sys/module/pm/parameters/idle_sleep_mode
 
     # bluetooth MAC address programming
-    chown bluetooth bluetooth /sys/module/board_bravo/parameters/bdaddress
-    setprop ro.bt.bdaddr_path /sys/module/board_bravo/parameters/bdaddress
+    chown bluetooth bluetooth /sys/module/board_mahimahi/parameters/bdaddr
+    setprop ro.bt.bdaddr_path /sys/module/board_mahimahi/parameters/bdaddr
 
     # bluetooth car dock pin
     chown system system /sys/class/switch/dock/bt_pin
@@ -50,17 +48,9 @@ on boot
     write /sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq 245000
     write /sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq 998400
     write /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor ondemand
-    write /sys/devices/system/cpu/cpufreq/ondemand/sampling_rate 40000
 
-    # Wakelock debug
-    write /sys/module/wakelock/parameters/debug_mask 7
-
-    # Fast dormancy settings
-    setprop ro.ril.fd.scron.timeout 3
-    setprop ro.ril.fd.scroff.timeout 4
-
-    # GPRS class
-    setprop ro.ril.gprsclass 10
+    setprop ro.ril.fast.dormancy.rule 1
+    setprop ro.ril.fast.dormancy.timeout 2
 
 # compass/accelerometer daemon
 service akmd /system/bin/akmd
