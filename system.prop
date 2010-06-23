@@ -28,20 +28,14 @@ ro.ril.hsupa.category = 5
 ro.ril.hsxpa = 2
 
 # RIL Region settings
-ro.ril.ecc.VIRGIN-UK=112,999,911
-ro.ril.ecc.HTC-ELL=92,93,94
-ro.ril.ecc.HTC-Russia=01,02,03,04
-ro.ril.ecc.HTC-FRA=123,911
-ro.ril.ecc.HTC-WWE=999,999
+ro.ril.oem.ecclist=911,112,999,000,08,118,111,120,122,110,119,995,0800
+ro.ril.oem.nosim.ecclist=911,112,999,000,08,118,111,120,122,110,119,995,0800
 ro.ril.disable.fd.plmn.prefix=23402,23410,23411
 ro.ril.enable.sdr=0
 ro.ril.enable.a52.HTC-ITA=1
 ro.ril.enable.a53.HTC-ITA=1
 ro.ril.enable.a52.VODA-Portugal=0
 ro.ril.enable.a53.VODA-Portugal=1
-
-# For HSDPA low throughput
-ro.ril.disable.power.collapse = 1
 
 # Set default_france.acdb to audio_ctl driver if the ro.cid is HTC__203
 ro.ril.enable.prl.recognition = 1
