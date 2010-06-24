@@ -16,7 +16,7 @@
 
 # To be included directly by a product makefile; do not use inherit-product.
 
-DEVICE_PACKAGE_OVERLAYS := vendor/htc/bravo/overlay
+# DEVICE_PACKAGE_OVERLAYS := vendor/htc/bravo/overlay
 
 PRODUCT_NAME := htc_bravo
 PRODUCT_DEVICE := bravo
