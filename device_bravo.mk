@@ -18,6 +18,9 @@
 
 DEVICE_PACKAGE_OVERLAYS := vendor/htc/bravo/overlay
 
+PRODUCT_NAME := htc_bravo
+PRODUCT_DEVICE := bravo
+
 NO_DEFAULT_SOUNDS := true
 
 PRODUCT_PROPERTY_OVERRIDES += \
