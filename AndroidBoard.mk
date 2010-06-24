@@ -209,6 +209,8 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/modules/nfs.ko:system/lib/modules/nfs.ko \
     $(LOCAL_PATH)/modules/cifs.ko:system/lib/modules/cifs.ko \
     $(LOCAL_PATH)/modules/lockd.ko:system/lib/modules/lockd.ko \
+    $(LOCAL_PATH)/modules/squashfs.ko:system/lib/modules/squashfs.ko \
+    $(LOCAL_PATH)/modules/cramfs.ko:system/lib/modules/cramfs.ko \
     $(LOCAL_PATH)/modules/nfs_acl.ko:system/lib/modules/nfs_acl.ko \
     $(LOCAL_PATH)/modules/sunrpc.ko:system/lib/modules/sunrpc.ko \
     $(LOCAL_PATH)/modules/lzo.ko:system/lib/modules/lzo.ko \
@@ -219,6 +221,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/proprietary/libspeech.so:system/lib/libspeech.so \
     $(LOCAL_PATH)/proprietary/lights.qsd8k.so:system/lib/hw/lights.qsd8k.so \
     $(LOCAL_PATH)/proprietary/akmd:system/bin/akmd \
+    $(LOCAL_PATH)/proprietary/btld:system/bin/btld \
     $(LOCAL_PATH)/fake_storage/led_hotspot_status:system/fake_storage/led_hotspot_status \
     $(LOCAL_PATH)/fake_storage/led_ril_status:system/fake_storage/led_ril_status \
     $(LOCAL_PATH)/fake_storage/led_wimax_status:system/fake_storage/led_wimax_status \

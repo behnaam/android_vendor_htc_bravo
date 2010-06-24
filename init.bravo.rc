@@ -80,5 +80,8 @@ service bugreport /system/bin/dumpstate -d -v -o /sdcard/bugreports/bugreport
 service hciattach /system/bin/brcm_patchram_plus --enable_hci --enable_lpm \
     --baudrate 3000000 --patchram /etc/firmware/bcm4329.hcd /dev/ttyHS0
     user bluetooth
+service btld /system/bin/logwrapper /system/bin/btld -lpm 1 -hb 3000000
+    user root
     group bluetooth net_bt_admin
     disabled
+    oneshot
